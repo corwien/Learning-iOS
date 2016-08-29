@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>答案2</string>
+		<key>title</key>
+		<string>测试字典转模型</string>
+		<key>icon</key>
+		<string>images</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>答案3</string>
+		<key>title</key>
+		<string>测试字典转模型</string>
+		<key>icon</key>
+		<string>images</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>答案1</string>
+		<key>title</key>
+		<string>测试字典转模型</string>
+		<key>icon</key>
+		<string>images</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>答案5</string>
+		<key>title</key>
+		<string>测试字典转模型</string>
+		<key>icon</key>
+		<string>images</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>答案7</string>
+		<key>title</key>
+		<string>测试字典转模型</string>
+		<key>icon</key>
+		<string>images</string>
+	</dict>
+</array>
+</plist>
