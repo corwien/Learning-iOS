@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E431F6F21D74940C000E0C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F6F11D74940C000E0C10 /* main.m */; };
+		E431F6F51D74940C000E0C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F6F41D74940C000E0C10 /* AppDelegate.m */; };
+		E431F6F81D74940C000E0C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F6F71D74940C000E0C10 /* ViewController.m */; };
+		E431F6FB1D74940C000E0C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E431F6F91D74940C000E0C10 /* Main.storyboard */; };
+		E431F6FD1D74940C000E0C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431F6FC1D74940C000E0C10 /* Assets.xcassets */; };
+		E431F7001D74940C000E0C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E431F6FE1D74940C000E0C10 /* LaunchScreen.storyboard */; };
+		E431F70B1D74940D000E0C10 /* _4_xib___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F70A1D74940D000E0C10 /* _4_xib___Tests.m */; };
+		E431F7161D74940D000E0C10 /* _4_xib___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F7151D74940D000E0C10 /* _4_xib___UITests.m */; };
+		E431F7241D749462000E0C10 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431F7231D749462000E0C10 /* Empty.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E431F7071D74940D000E0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E431F6E51D74940C000E0C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E431F6EC1D74940C000E0C10;
+			remoteInfo = "04-xib的使用";
+		};
+		E431F7121D74940D000E0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E431F6E51D74940C000E0C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E431F6EC1D74940C000E0C10;
+			remoteInfo = "04-xib的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E431F6ED1D74940C000E0C10 /* 04-xib的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-xib的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431F6F11D74940C000E0C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E431F6F31D74940C000E0C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E431F6F41D74940C000E0C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E431F6F61D74940C000E0C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E431F6F71D74940C000E0C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E431F6FA1D74940C000E0C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E431F6FC1D74940C000E0C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E431F6FF1D74940C000E0C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E431F7011D74940D000E0C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431F7061D74940D000E0C10 /* 04-xib的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-xib的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431F70A1D74940D000E0C10 /* _4_xib___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_xib___Tests.m"; sourceTree = "<group>"; };
+		E431F70C1D74940D000E0C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431F7111D74940D000E0C10 /* 04-xib的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-xib的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E431F7151D74940D000E0C10 /* _4_xib___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_xib___UITests.m"; sourceTree = "<group>"; };
+		E431F7171D74940D000E0C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E431F7231D749462000E0C10 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E431F6EA1D74940C000E0C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F7031D74940D000E0C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F70E1D74940D000E0C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E431F6E41D74940C000E0C10 = {
+			isa = PBXGroup;
+			children = (
+				E431F6EF1D74940C000E0C10 /* 04-xib的使用 */,
+				E431F7091D74940D000E0C10 /* 04-xib的使用Tests */,
+				E431F7141D74940D000E0C10 /* 04-xib的使用UITests */,
+				E431F6EE1D74940C000E0C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E431F6EE1D74940C000E0C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E431F6ED1D74940C000E0C10 /* 04-xib的使用.app */,
+				E431F7061D74940D000E0C10 /* 04-xib的使用Tests.xctest */,
+				E431F7111D74940D000E0C10 /* 04-xib的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E431F6EF1D74940C000E0C10 /* 04-xib的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				E431F6F31D74940C000E0C10 /* AppDelegate.h */,
+				E431F6F41D74940C000E0C10 /* AppDelegate.m */,
+				E431F6F61D74940C000E0C10 /* ViewController.h */,
+				E431F6F71D74940C000E0C10 /* ViewController.m */,
+				E431F6F91D74940C000E0C10 /* Main.storyboard */,
+				E431F6FC1D74940C000E0C10 /* Assets.xcassets */,
+				E431F6FE1D74940C000E0C10 /* LaunchScreen.storyboard */,
+				E431F7011D74940D000E0C10 /* Info.plist */,
+				E431F6F01D74940C000E0C10 /* Supporting Files */,
+				E431F7231D749462000E0C10 /* Empty.xib */,
+			);
+			path = "04-xib的使用";
+			sourceTree = "<group>";
+		};
+		E431F6F01D74940C000E0C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E431F6F11D74940C000E0C10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E431F7091D74940D000E0C10 /* 04-xib的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E431F70A1D74940D000E0C10 /* _4_xib___Tests.m */,
+				E431F70C1D74940D000E0C10 /* Info.plist */,
+			);
+			path = "04-xib的使用Tests";
+			sourceTree = "<group>";
+		};
+		E431F7141D74940D000E0C10 /* 04-xib的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E431F7151D74940D000E0C10 /* _4_xib___UITests.m */,
+				E431F7171D74940D000E0C10 /* Info.plist */,
+			);
+			path = "04-xib的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E431F6EC1D74940C000E0C10 /* 04-xib的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431F71A1D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用" */;
+			buildPhases = (
+				E431F6E91D74940C000E0C10 /* Sources */,
+				E431F6EA1D74940C000E0C10 /* Frameworks */,
+				E431F6EB1D74940C000E0C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-xib的使用";
+			productName = "04-xib的使用";
+			productReference = E431F6ED1D74940C000E0C10 /* 04-xib的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E431F7051D74940D000E0C10 /* 04-xib的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431F71D1D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用Tests" */;
+			buildPhases = (
+				E431F7021D74940D000E0C10 /* Sources */,
+				E431F7031D74940D000E0C10 /* Frameworks */,
+				E431F7041D74940D000E0C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E431F7081D74940D000E0C10 /* PBXTargetDependency */,
+			);
+			name = "04-xib的使用Tests";
+			productName = "04-xib的使用Tests";
+			productReference = E431F7061D74940D000E0C10 /* 04-xib的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E431F7101D74940D000E0C10 /* 04-xib的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E431F7201D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用UITests" */;
+			buildPhases = (
+				E431F70D1D74940D000E0C10 /* Sources */,
+				E431F70E1D74940D000E0C10 /* Frameworks */,
+				E431F70F1D74940D000E0C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E431F7131D74940D000E0C10 /* PBXTargetDependency */,
+			);
+			name = "04-xib的使用UITests";
+			productName = "04-xib的使用UITests";
+			productReference = E431F7111D74940D000E0C10 /* 04-xib的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E431F6E51D74940C000E0C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Corwien;
+				TargetAttributes = {
+					E431F6EC1D74940C000E0C10 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E431F7051D74940D000E0C10 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E431F6EC1D74940C000E0C10;
+					};
+					E431F7101D74940D000E0C10 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E431F6EC1D74940C000E0C10;
+					};
+				};
+			};
+			buildConfigurationList = E431F6E81D74940C000E0C10 /* Build configuration list for PBXProject "04-xib的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E431F6E41D74940C000E0C10;
+			productRefGroup = E431F6EE1D74940C000E0C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E431F6EC1D74940C000E0C10 /* 04-xib的使用 */,
+				E431F7051D74940D000E0C10 /* 04-xib的使用Tests */,
+				E431F7101D74940D000E0C10 /* 04-xib的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E431F6EB1D74940C000E0C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431F7001D74940C000E0C10 /* LaunchScreen.storyboard in Resources */,
+				E431F7241D749462000E0C10 /* Empty.xib in Resources */,
+				E431F6FD1D74940C000E0C10 /* Assets.xcassets in Resources */,
+				E431F6FB1D74940C000E0C10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F7041D74940D000E0C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F70F1D74940D000E0C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E431F6E91D74940C000E0C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431F6F81D74940C000E0C10 /* ViewController.m in Sources */,
+				E431F6F51D74940C000E0C10 /* AppDelegate.m in Sources */,
+				E431F6F21D74940C000E0C10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F7021D74940D000E0C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431F70B1D74940D000E0C10 /* _4_xib___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E431F70D1D74940D000E0C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E431F7161D74940D000E0C10 /* _4_xib___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E431F7081D74940D000E0C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E431F6EC1D74940C000E0C10 /* 04-xib的使用 */;
+			targetProxy = E431F7071D74940D000E0C10 /* PBXContainerItemProxy */;
+		};
+		E431F7131D74940D000E0C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E431F6EC1D74940C000E0C10 /* 04-xib的使用 */;
+			targetProxy = E431F7121D74940D000E0C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E431F6F91D74940C000E0C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E431F6FA1D74940C000E0C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E431F6FE1D74940C000E0C10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E431F6FF1D74940C000E0C10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E431F7181D74940D000E0C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E431F7191D74940D000E0C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E431F71B1D74940D000E0C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-xib的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E431F71C1D74940D000E0C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-xib的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E431F71E1D74940D000E0C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-xib的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-xib的使用.app/04-xib的使用";
+			};
+			name = Debug;
+		};
+		E431F71F1D74940D000E0C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-xib的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-xib的使用.app/04-xib的使用";
+			};
+			name = Release;
+		};
+		E431F7211D74940D000E0C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-xib的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-xib的使用";
+			};
+			name = Debug;
+		};
+		E431F7221D74940D000E0C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-xib的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "digtime.cn.-4-xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-xib的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E431F6E81D74940C000E0C10 /* Build configuration list for PBXProject "04-xib的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431F7181D74940D000E0C10 /* Debug */,
+				E431F7191D74940D000E0C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E431F71A1D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431F71B1D74940D000E0C10 /* Debug */,
+				E431F71C1D74940D000E0C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E431F71D1D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431F71E1D74940D000E0C10 /* Debug */,
+				E431F71F1D74940D000E0C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E431F7201D74940D000E0C10 /* Build configuration list for PBXNativeTarget "04-xib的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E431F7211D74940D000E0C10 /* Debug */,
+				E431F7221D74940D000E0C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E431F6E51D74940C000E0C10 /* Project object */;
+}
