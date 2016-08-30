@@ -16,12 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    // xib的文件加载
+    NSArray *objs = [[NSBundle mainBundle] loadNibNamed:@"myTest" owner:nil options:nil];
+    
+    // 获取xib的View
+    UIView *appView = [objs lastObject];
+    
+    appView.frame = CGRectMake(20, 50, 200, 100);
+    
+    // 添加View
+    [self.view addSubview:appView];
+    
+    // 打印数据
+    NSLog(@"%@", appView);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

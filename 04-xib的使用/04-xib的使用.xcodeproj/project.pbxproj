@@ -15,7 +15,7 @@
 		E431F7001D74940C000E0C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E431F6FE1D74940C000E0C10 /* LaunchScreen.storyboard */; };
 		E431F70B1D74940D000E0C10 /* _4_xib___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F70A1D74940D000E0C10 /* _4_xib___Tests.m */; };
 		E431F7161D74940D000E0C10 /* _4_xib___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431F7151D74940D000E0C10 /* _4_xib___UITests.m */; };
-		E431F7241D749462000E0C10 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431F7231D749462000E0C10 /* Empty.xib */; };
+		E431F7241D749462000E0C10 /* myTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431F7231D749462000E0C10 /* myTest.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		E431F7111D74940D000E0C10 /* 04-xib的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-xib的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E431F7151D74940D000E0C10 /* _4_xib___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_xib___UITests.m"; sourceTree = "<group>"; };
 		E431F7171D74940D000E0C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E431F7231D749462000E0C10 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		E431F7231D749462000E0C10 /* myTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTest.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				E431F6FE1D74940C000E0C10 /* LaunchScreen.storyboard */,
 				E431F7011D74940D000E0C10 /* Info.plist */,
 				E431F6F01D74940C000E0C10 /* Supporting Files */,
-				E431F7231D749462000E0C10 /* Empty.xib */,
+				E431F7231D749462000E0C10 /* myTest.xib */,
 			);
 			path = "04-xib的使用";
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E431F7001D74940C000E0C10 /* LaunchScreen.storyboard in Resources */,
-				E431F7241D749462000E0C10 /* Empty.xib in Resources */,
+				E431F7241D749462000E0C10 /* myTest.xib in Resources */,
 				E431F6FD1D74940C000E0C10 /* Assets.xcassets in Resources */,
 				E431F6FB1D74940C000E0C10 /* Main.storyboard in Resources */,
 			);
