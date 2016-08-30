@@ -18,15 +18,16 @@
     [super viewDidLoad];
     
     
-    // xib的文件加载
+    // 1、xib的文件加载
     NSArray *objs = [[NSBundle mainBundle] loadNibNamed:@"myTest" owner:nil options:nil];
     
-    // 获取xib的View
+    // 2、获取xib的View
     UIView *appView = [objs lastObject];
     
+    // 3、设置frame
     appView.frame = CGRectMake(20, 50, 200, 100);
     
-    // 添加View
+    // 4、添加View
     [self.view addSubview:appView];
     
     // 打印数据
