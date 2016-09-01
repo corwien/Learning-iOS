@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E459AF2F1D7893090073963B /* myImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E459AF2E1D7893090073963B /* myImage.jpg */; };
 		E46F27A81D75E8130033BF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46F27A71D75E8130033BF1B /* main.m */; };
 		E46F27AB1D75E8130033BF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46F27AA1D75E8130033BF1B /* AppDelegate.m */; };
 		E46F27AE1D75E8130033BF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46F27AD1D75E8130033BF1B /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E459AF2E1D7893090073963B /* myImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myImage.jpg; sourceTree = "<group>"; };
 		E46F27A31D75E8130033BF1B /* 05-UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-UIScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46F27A71D75E8130033BF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E46F27A91D75E8130033BF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E46F27A71D75E8130033BF1B /* main.m */,
+				E459AF2E1D7893090073963B /* myImage.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				E46F27B61D75E8130033BF1B /* LaunchScreen.storyboard in Resources */,
 				E46F27B31D75E8130033BF1B /* Assets.xcassets in Resources */,
 				E46F27B11D75E8130033BF1B /* Main.storyboard in Resources */,
+				E459AF2F1D7893090073963B /* myImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				E46F27D21D75E8130033BF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46F27D31D75E8130033BF1B /* Build configuration list for PBXNativeTarget "05-UIScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				E46F27D51D75E8130033BF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46F27D61D75E8130033BF1B /* Build configuration list for PBXNativeTarget "05-UIScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				E46F27D81D75E8130033BF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
